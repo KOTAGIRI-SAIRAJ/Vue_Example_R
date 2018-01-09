@@ -6,6 +6,7 @@ import DataTable from '../components/DataTable.vue'
 import RegistrationOperations from '../components/RegitsterOperations.vue'
 import InterpolationsAndDirectives from '../components/InterpolationsAndDirectives.vue'
 import TwoWayBinding from '../components/TwoWayBinding.vue'
+import ComputedProperty from '../components/ComputedProperty.vue'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/TwoWayBinding',
       name: 'TwoWayBinding',
       component: TwoWayBinding
+    },
+    {
+      path: '/ComputedProperty',
+      name: 'ComputedProperty',
+      component: ComputedProperty
     }
   ]
 })

@@ -28,6 +28,13 @@
           </li>
           <li>
             <button class="panel-primary">
+              <router-link to="/ComputedProperty">
+                Computed Property
+              </router-link>
+            </button>
+          </li>
+          <li>
+            <button class="panel-primary">
               <router-link to="/RegistrationPage">
                 Registration Page
               </router-link>
