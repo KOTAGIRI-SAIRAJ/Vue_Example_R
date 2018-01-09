@@ -14,7 +14,7 @@
       </vue-bootstrap-table>
     </div>
 
-    <h1>Registered Users</h1>
+    <h1>UnRegistered Users</h1>
     <div class="container">
       <vue-bootstrap-table
         :columns="columns"
@@ -99,7 +99,6 @@
             'age': 24
           }
         ]
-
       }
     }
   }
